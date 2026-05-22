@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BUTTON</title>
+    <style>
+        body {
+            font-family: cambria;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-family: Italic, serif;
+            font-size: 30px;
+            background: #000;
+            color: white;
+        }
+        .btn-simple {
+            background-color: brown;
+            font-style: italic;
+        }
+        .btn-rounded {
+            background-color: aqua;
+            color:white;
+            border-rdaius:50px;
+
+        }
+        .btn-gradient {
+            background: linear-gradient(to right red, pink);
+            color:rgb(255, 255, 255);
+            border-radius:8px;
+        }
+        .gradient-btn:hover {
+            opacity:0.8;
+        }
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid green;
+            color: green;
+        }
+        .btn-outline:hover {
+            bgcolor:red;
+        }
+        .btn-shadow {
+            background-color: orange,white;
+            box-shadow: 0px 5px 10px black;
+        }
+        .btn-shadow:hover {
+            transform: translateY(-3px);
+        }
+        .btn-3d {
+            background: green;
+            color:white;
+            bxx-shadow: 0 5px rgb greenyellow;
+            border-radius: 5px;
+        }
+        .btn-neon {
+            background: #000;
+            color: blue;
+            border: 2px solid blue;
+            box-shadow: 0 0 10px blue;
+
+        }
+        .btn-neon:hover{
+            background: blue;
+            color: #000;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>CSS BUTTON</h1>
+
+    <button class="btn-simple">Simple Button</button><br>
+
+    <button class="btn-rounded">Rounded Button</button><br>
+
+    <button class="btn-outline">Outline Button</button><br>
+
+    <button class="btn-gradient">Gradient Button</button><br>
+
+    <button class="btn-shadow">Shadow Button</button><br>
+
+    <button class="btn-neon">Neon Button</button>
+
+
+</body>
+
+</html>
